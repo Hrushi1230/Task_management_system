@@ -5,7 +5,7 @@ It allows users to manage projects and tasks with secure authentication, protect
 
 
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 ### Backend
 - Node.js
@@ -22,7 +22,7 @@ It allows users to manage projects and tasks with secure authentication, protect
 
 ---
 
-## 🔐 Features
+## Features
 
 ### Authentication
 - User Registration
@@ -59,16 +59,16 @@ Backend and frontend are separated for scalability and clean architecture.
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
-### 1️⃣ Clone the repository
+### 1️ Clone the repository
 
 git clone <your-repository-link>
 cd Task_management_system
 
 ---
 
-### 2️⃣ Backend Setup
+### 2️ Backend Setup
 
 cd backend
 npm install
@@ -90,7 +90,7 @@ http://localhost:5000
 
 ---
 
-### 3️⃣ Frontend Setup
+### 3️ Frontend Setup
 
 cd frontend
 npm install
@@ -101,7 +101,7 @@ http://localhost:5173
 
 ---
 
-## 🛡️ Security Implementation
+##  Security Implementation
 
 - Passwords hashed using bcrypt
 - JWT used for stateless authentication
@@ -111,7 +111,7 @@ http://localhost:5173
 
 ---
 
-## 📊 Database Relationships
+##  Database Relationships
 
 - A User can have multiple Projects
 - A Project can have multiple Tasks
@@ -122,7 +122,7 @@ Implemented using MongoDB ObjectId references.
 
 ---
 
-## 🎯 Design Decisions
+##  Design Decisions
 
 - MVC-based backend structure
 - JWT chosen for scalable authentication
@@ -132,7 +132,7 @@ Implemented using MongoDB ObjectId references.
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Role-based access control (Admin/User)
 - Pagination for scalability
@@ -142,7 +142,7 @@ Implemented using MongoDB ObjectId references.
 
 ---
 
-## 📡 API Documentation
+##  API Documentation
 
 ### Base URL (Local)
 ```
