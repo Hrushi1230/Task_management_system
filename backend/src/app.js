@@ -8,8 +8,14 @@ const dashboardRoutes = require("./routes/dashboardRoutes");
 
 const app=express();
 
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://task-management-system-d20l0n4js-hrushikeshs-projects-011ac394.vercel.app"
+  ],
+  credentials: true
+}));
 
-app.use(cors());
 app.use(express.json());
 
 app.use("/api/auth", authRoutes);
